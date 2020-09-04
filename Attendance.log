@@ -1,0 +1,304 @@
+2020-08-23 15:09:15,889:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-08-23 15:20:30,734:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-08-23 15:21:48,804:ERROR:Exception on /Attendance [POST]
+Traceback (most recent call last):
+  File "C:\Users\Ankit\PycharmProjects\Attendance\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Ankit\PycharmProjects\Attendance\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Ankit\PycharmProjects\Attendance\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Ankit\PycharmProjects\Attendance\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\Ankit\PycharmProjects\Attendance\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Ankit\PycharmProjects\Attendance\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:/Users/Ankit/PycharmProjects/Attendance/Attendancedemo.py", line 101, in Attendance
+    markAttendance(name)
+  File "C:/Users/Ankit/PycharmProjects/Attendance/Attendancedemo.py", line 52, in markAttendance
+    with open('Attendance23.csv', 'r+') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'Attendance23.csv'
+2020-08-23 15:21:48,856:INFO:127.0.0.1 - - [23/Aug/2020 15:21:48] "[35m[1mPOST /Attendance HTTP/1.1[0m" 500 -
+2020-08-23 15:27:13,196:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-08-23 15:33:12,937:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-08-23 15:35:50,948:INFO:127.0.0.1 - - [23/Aug/2020 15:35:50] "[31m[1mPOST /Attendance HTTP/1.1[0m" 400 -
+2020-08-23 15:36:12,292:INFO:127.0.0.1 - - [23/Aug/2020 15:36:12] "[31m[1mPOST /Attendance HTTP/1.1[0m" 400 -
+2020-08-23 15:36:51,227:INFO:127.0.0.1 - - [23/Aug/2020 15:36:51] "[31m[1mPOST /Attendance HTTP/1.1[0m" 400 -
+2020-08-23 15:37:22,495:INFO:127.0.0.1 - - [23/Aug/2020 15:37:22] "[31m[1mPOST /Attendance HTTP/1.1[0m" 400 -
+2020-08-23 15:40:03,302:INFO:127.0.0.1 - - [23/Aug/2020 15:40:03] "[31m[1mPOST /Attendance HTTP/1.1[0m" 400 -
+2020-08-23 15:40:34,954:INFO:127.0.0.1 - - [23/Aug/2020 15:40:34] "[31m[1mPOST /Attendance HTTP/1.1[0m" 400 -
+2020-08-23 15:41:01,748:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-08-23 15:41:43,447:INFO:127.0.0.1 - - [23/Aug/2020 15:41:43] "[31m[1mPOST /Attendance HTTP/1.1[0m" 400 -
+2020-08-24 14:14:39,700:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-08-24 14:38:32,162:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-08-24 14:46:01,767:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-08-24 16:18:34,975:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-08-24 16:57:14,527:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-08-31 11:37:36,532:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-08-31 12:44:54,233:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-08-31 16:35:27,350:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-08-31 16:40:19,409:INFO:127.0.0.1 - - [31/Aug/2020 16:40:19] "[31m[1mPOST /Attendance HTTP/1.1[0m" 400 -
+2020-08-31 16:40:55,811:INFO:127.0.0.1 - - [31/Aug/2020 16:40:55] "[31m[1mPOST /Attendance HTTP/1.1[0m" 400 -
+2020-09-01 14:55:04,473:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-01 15:04:22,423:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-01 15:14:30,161:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-01 15:29:36,872:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-01 15:30:23,815:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-02 14:16:43,701:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-02 14:27:54,528:ERROR:Exception on /Attendance [POST]
+Traceback (most recent call last):
+  File "C:\Users\Ankit\PycharmProjects\Attendance\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Ankit\PycharmProjects\Attendance\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Ankit\PycharmProjects\Attendance\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Ankit\PycharmProjects\Attendance\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\Ankit\PycharmProjects\Attendance\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Ankit\PycharmProjects\Attendance\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:/Users/Ankit/PycharmProjects/Attendance/Attendancedemo.py", line 81, in Attendance
+    imgS = cv2.resize(img, (0,0), None, 0.25, 0.25)
+cv2.error: OpenCV(4.4.0) C:\Users\appveyor\AppData\Local\Temp\1\pip-req-build-2b5g8ysb\opencv\modules\imgproc\src\resize.cpp:3929: error: (-215:Assertion failed) !ssize.empty() in function 'cv::resize'
+
+2020-09-02 14:32:36,121:INFO:127.0.0.1 - - [02/Sep/2020 14:32:06] "[35m[1mPOST /Attendance HTTP/1.1[0m" 500 -
+2020-09-02 14:42:35,769:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-03 11:01:32,848:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-03 11:14:28,544:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-03 11:51:41,276:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-03 11:55:08,042:ERROR:Exception on /Attendance [POST]
+Traceback (most recent call last):
+  File "C:\Users\Ankit\PycharmProjects\Attendance\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Ankit\PycharmProjects\Attendance\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Ankit\PycharmProjects\Attendance\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Ankit\PycharmProjects\Attendance\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\Ankit\PycharmProjects\Attendance\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Ankit\PycharmProjects\Attendance\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:/Users/Ankit/PycharmProjects/Attendance/Attendancedemo.py", line 96, in Attendance
+    resp_data = {{'name': name}},{'Match Found'}
+TypeError: unhashable type: 'dict'
+2020-09-03 11:55:09,278:INFO:127.0.0.1 - - [03/Sep/2020 11:55:09] "[35m[1mPOST /Attendance HTTP/1.1[0m" 500 -
+2020-09-03 15:53:26,342:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-03 16:02:49,529:ERROR:Exception on /Attendance [POST]
+Traceback (most recent call last):
+  File "C:\Users\Ankit\PycharmProjects\Attendance\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Ankit\PycharmProjects\Attendance\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Ankit\PycharmProjects\Attendance\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Ankit\PycharmProjects\Attendance\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\Ankit\PycharmProjects\Attendance\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Ankit\PycharmProjects\Attendance\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:/Users/Ankit/PycharmProjects/Attendance/Attendancedemo.py", line 72, in Attendance
+    encodeListKnown = findEncodings(images)
+  File "C:/Users/Ankit/PycharmProjects/Attendance/Attendancedemo.py", line 42, in findEncodings
+    img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+cv2.error: OpenCV(4.4.0) C:\Users\appveyor\AppData\Local\Temp\1\pip-req-build-2b5g8ysb\opencv\modules\imgproc\src\color.cpp:182: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2020-09-03 16:02:52,063:INFO:127.0.0.1 - - [03/Sep/2020 16:02:52] "[35m[1mPOST /Attendance HTTP/1.1[0m" 500 -
+2020-09-03 16:20:24,441:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-03 16:20:37,572:ERROR:Exception on /Attendance [POST]
+Traceback (most recent call last):
+  File "C:\Users\Ankit\PycharmProjects\Attendance\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Ankit\PycharmProjects\Attendance\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Ankit\PycharmProjects\Attendance\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Ankit\PycharmProjects\Attendance\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\Ankit\PycharmProjects\Attendance\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Ankit\PycharmProjects\Attendance\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:/Users/Ankit/PycharmProjects/Attendance/Attendancedemo.py", line 72, in Attendance
+    encodeListKnown = findEncodings(images)
+  File "C:/Users/Ankit/PycharmProjects/Attendance/Attendancedemo.py", line 42, in findEncodings
+    img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+cv2.error: OpenCV(4.4.0) C:\Users\appveyor\AppData\Local\Temp\1\pip-req-build-2b5g8ysb\opencv\modules\imgproc\src\color.cpp:182: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2020-09-03 16:20:37,581:INFO:127.0.0.1 - - [03/Sep/2020 16:20:37] "[35m[1mPOST /Attendance HTTP/1.1[0m" 500 -
+2020-09-03 16:20:49,149:ERROR:Exception on /Attendance [POST]
+Traceback (most recent call last):
+  File "C:\Users\Ankit\PycharmProjects\Attendance\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Ankit\PycharmProjects\Attendance\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Ankit\PycharmProjects\Attendance\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Ankit\PycharmProjects\Attendance\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\Ankit\PycharmProjects\Attendance\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Ankit\PycharmProjects\Attendance\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:/Users/Ankit/PycharmProjects/Attendance/Attendancedemo.py", line 72, in Attendance
+    encodeListKnown = findEncodings(images)
+  File "C:/Users/Ankit/PycharmProjects/Attendance/Attendancedemo.py", line 42, in findEncodings
+    img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+cv2.error: OpenCV(4.4.0) C:\Users\appveyor\AppData\Local\Temp\1\pip-req-build-2b5g8ysb\opencv\modules\imgproc\src\color.cpp:182: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2020-09-03 16:20:49,153:INFO:127.0.0.1 - - [03/Sep/2020 16:20:49] "[35m[1mPOST /Attendance HTTP/1.1[0m" 500 -
+2020-09-03 16:20:58,624:ERROR:Exception on /Attendance [POST]
+Traceback (most recent call last):
+  File "C:\Users\Ankit\PycharmProjects\Attendance\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Ankit\PycharmProjects\Attendance\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Ankit\PycharmProjects\Attendance\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Ankit\PycharmProjects\Attendance\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\Ankit\PycharmProjects\Attendance\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Ankit\PycharmProjects\Attendance\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:/Users/Ankit/PycharmProjects/Attendance/Attendancedemo.py", line 72, in Attendance
+    encodeListKnown = findEncodings(images)
+  File "C:/Users/Ankit/PycharmProjects/Attendance/Attendancedemo.py", line 42, in findEncodings
+    img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+cv2.error: OpenCV(4.4.0) C:\Users\appveyor\AppData\Local\Temp\1\pip-req-build-2b5g8ysb\opencv\modules\imgproc\src\color.cpp:182: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2020-09-03 16:20:58,628:INFO:127.0.0.1 - - [03/Sep/2020 16:20:58] "[35m[1mPOST /Attendance HTTP/1.1[0m" 500 -
+2020-09-03 16:22:24,654:ERROR:Exception on /Attendance [POST]
+Traceback (most recent call last):
+  File "C:\Users\Ankit\PycharmProjects\Attendance\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Ankit\PycharmProjects\Attendance\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Ankit\PycharmProjects\Attendance\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Ankit\PycharmProjects\Attendance\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\Ankit\PycharmProjects\Attendance\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Ankit\PycharmProjects\Attendance\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:/Users/Ankit/PycharmProjects/Attendance/Attendancedemo.py", line 72, in Attendance
+    encodeListKnown = findEncodings(images)
+  File "C:/Users/Ankit/PycharmProjects/Attendance/Attendancedemo.py", line 42, in findEncodings
+    img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+cv2.error: OpenCV(4.4.0) C:\Users\appveyor\AppData\Local\Temp\1\pip-req-build-2b5g8ysb\opencv\modules\imgproc\src\color.cpp:182: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+2020-09-03 16:22:24,656:INFO:127.0.0.1 - - [03/Sep/2020 16:22:24] "[35m[1mPOST /Attendance HTTP/1.1[0m" 500 -
+2020-09-03 16:51:12,376:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-03 16:51:49,287:ERROR:Exception on /Attendance [POST]
+Traceback (most recent call last):
+  File "C:\Users\Ankit\PycharmProjects\Attendance\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Ankit\PycharmProjects\Attendance\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Ankit\PycharmProjects\Attendance\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Ankit\PycharmProjects\Attendance\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\Ankit\PycharmProjects\Attendance\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Ankit\PycharmProjects\Attendance\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:/Users/Ankit/PycharmProjects/Attendance/Attendancedemo.py", line 97, in Attendance
+    fr.writelines("Match Found")
+TypeError: a bytes-like object is required, not 'str'
+2020-09-03 16:51:49,291:INFO:127.0.0.1 - - [03/Sep/2020 16:51:49] "[35m[1mPOST /Attendance HTTP/1.1[0m" 500 -
+2020-09-03 16:52:20,878:ERROR:Exception on /Attendance [POST]
+Traceback (most recent call last):
+  File "C:\Users\Ankit\PycharmProjects\Attendance\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Ankit\PycharmProjects\Attendance\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Ankit\PycharmProjects\Attendance\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Ankit\PycharmProjects\Attendance\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\Ankit\PycharmProjects\Attendance\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Ankit\PycharmProjects\Attendance\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:/Users/Ankit/PycharmProjects/Attendance/Attendancedemo.py", line 97, in Attendance
+    fr.writelines("Match Found")
+TypeError: a bytes-like object is required, not 'str'
+2020-09-03 16:52:20,879:INFO:127.0.0.1 - - [03/Sep/2020 16:52:20] "[35m[1mPOST /Attendance HTTP/1.1[0m" 500 -
+2020-09-03 16:52:53,677:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-03 16:53:08,147:ERROR:Exception on /Attendance [POST]
+Traceback (most recent call last):
+  File "C:\Users\Ankit\PycharmProjects\Attendance\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Ankit\PycharmProjects\Attendance\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Ankit\PycharmProjects\Attendance\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Ankit\PycharmProjects\Attendance\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\Ankit\PycharmProjects\Attendance\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Ankit\PycharmProjects\Attendance\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:/Users/Ankit/PycharmProjects/Attendance/Attendancedemo.py", line 97, in Attendance
+    fr.writelines("Match Found")
+TypeError: a bytes-like object is required, not 'str'
+2020-09-03 16:53:08,150:INFO:127.0.0.1 - - [03/Sep/2020 16:53:08] "[35m[1mPOST /Attendance HTTP/1.1[0m" 500 -
+2020-09-03 16:53:45,765:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-03 16:53:59,696:ERROR:Exception on /Attendance [POST]
+Traceback (most recent call last):
+  File "C:\Users\Ankit\PycharmProjects\Attendance\venv\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Ankit\PycharmProjects\Attendance\venv\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Ankit\PycharmProjects\Attendance\venv\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Ankit\PycharmProjects\Attendance\venv\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\Ankit\PycharmProjects\Attendance\venv\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Ankit\PycharmProjects\Attendance\venv\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:/Users/Ankit/PycharmProjects/Attendance/Attendancedemo.py", line 97, in Attendance
+    fr.writelines("Match Found")
+TypeError: a bytes-like object is required, not 'str'
+2020-09-03 16:53:59,699:INFO:127.0.0.1 - - [03/Sep/2020 16:53:59] "[35m[1mPOST /Attendance HTTP/1.1[0m" 500 -
+2020-09-03 16:57:57,572:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-03 17:08:14,377:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-03 17:10:03,676:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-03 17:10:35,371:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-03 17:11:04,128:INFO:127.0.0.1 - - [03/Sep/2020 17:11:04] "[37mPOST /Attendance HTTP/1.1[0m" 200 -
+2020-09-03 17:11:53,819:INFO:127.0.0.1 - - [03/Sep/2020 17:11:53] "[37mPOST /Attendance HTTP/1.1[0m" 200 -
+2020-09-03 17:14:16,603:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-03 17:14:30,250:INFO:127.0.0.1 - - [03/Sep/2020 17:14:30] "[37mPOST /Attendance HTTP/1.1[0m" 200 -
+2020-09-03 17:19:41,380:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-03 17:20:04,910:INFO:127.0.0.1 - - [03/Sep/2020 17:20:04] "[37mPOST /Attendance HTTP/1.1[0m" 200 -
+2020-09-03 17:20:35,295:INFO:127.0.0.1 - - [03/Sep/2020 17:20:35] "[37mPOST /Attendance HTTP/1.1[0m" 200 -
+2020-09-03 17:22:24,887:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-03 17:22:54,875:INFO:127.0.0.1 - - [03/Sep/2020 17:22:54] "[37mPOST /Attendance HTTP/1.1[0m" 200 -
+2020-09-03 17:29:13,451:INFO:127.0.0.1 - - [03/Sep/2020 17:29:13] "[37mPOST /Attendance HTTP/1.1[0m" 200 -
+2020-09-03 17:32:46,390:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-03 17:40:21,265:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-03 17:40:57,383:INFO:127.0.0.1 - - [03/Sep/2020 17:40:57] "[37mPOST /Attendance HTTP/1.1[0m" 200 -
+2020-09-03 17:42:11,761:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-03 17:42:31,823:INFO:127.0.0.1 - - [03/Sep/2020 17:42:31] "[37mPOST /Attendance HTTP/1.1[0m" 200 -
+2020-09-03 17:42:57,653:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-03 17:43:16,456:INFO:127.0.0.1 - - [03/Sep/2020 17:43:16] "[37mPOST /Attendance HTTP/1.1[0m" 200 -
+2020-09-03 17:44:13,099:INFO:127.0.0.1 - - [03/Sep/2020 17:44:13] "[37mPOST /Attendance HTTP/1.1[0m" 200 -
+2020-09-03 17:46:58,451:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-03 17:47:16,705:INFO:127.0.0.1 - - [03/Sep/2020 17:47:16] "[37mPOST /Attendance HTTP/1.1[0m" 200 -
+2020-09-03 17:48:21,054:INFO:127.0.0.1 - - [03/Sep/2020 17:48:21] "[37mPOST /Attendance HTTP/1.1[0m" 200 -
+2020-09-03 17:53:41,722:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-03 17:54:26,742:INFO:127.0.0.1 - - [03/Sep/2020 17:54:26] "[37mPOST /Attendance HTTP/1.1[0m" 200 -
+2020-09-03 18:05:41,432:INFO:127.0.0.1 - - [03/Sep/2020 18:05:41] "[37mPOST /Attendance HTTP/1.1[0m" 200 -
+2020-09-04 13:01:46,613:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-04 13:06:08,536:INFO:127.0.0.1 - - [04/Sep/2020 13:06:08] "[37mPOST /Attendance HTTP/1.1[0m" 200 -
+2020-09-04 14:01:03,955:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2020-09-04 14:03:00,008:INFO:127.0.0.1 - - [04/Sep/2020 14:03:00] "[31m[1mGET /Attendance HTTP/1.1[0m" 405 -
+2020-09-04 14:03:04,550:INFO:127.0.0.1 - - [04/Sep/2020 14:03:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
